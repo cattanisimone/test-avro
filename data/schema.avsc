@@ -13,7 +13,7 @@
       "type" : "double"
     }, {
       "name" : "rainfall",
-      "type" : "long"
+      "type" : "double"
     }, {
       "name" : "evaporation",
       "type" : "string"

@@ -20,7 +20,9 @@ java -jar avro-tools-1.9.0.jar fromjson --schema-file data/schema.avsc ./data/sa
 java -jar avro-tools-1.9.0.jar fromjson --schema-file data/schema.avsc ./data/sample-json/part-00003.json > data/sample-avro/part-0003.avro
 ```
 
-## Python reader
+## Readers
+
+### Python reader
 
 ##### Install python dependency 
 ```sh
@@ -35,7 +37,7 @@ sudo python3 setup.py install
 python3 reader_python/main.py
 ```
 
-## JS reader
+### JS reader
 
 ##### Install dependencies
 ```sh
@@ -47,3 +49,14 @@ npm install
 ```sh
 node reader_js/index.jsg
 ```
+
+### Java reader
+
+##### Compile schema
+```sh
+java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . reader_java/src/main/java
+```
+
+##### Run reader
+- open with IntelliJ
+- run main function
