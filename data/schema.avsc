@@ -1,0 +1,27 @@
+{
+    "type" : "record",
+    "name" : "MyClass",
+    "namespace" : "com.test.avro",
+    "fields" : [ {
+      "name" : "date",
+      "type" : "string"
+    }, {
+      "name" : "temp_min",
+      "type" : "double"
+    }, {
+      "name" : "temp_max",
+      "type" : "double"
+    }, {
+      "name" : "rainfall",
+      "type" : "long"
+    }, {
+      "name" : "evaporation",
+      "type" : "string"
+    }, {
+      "name" : "sunshine",
+      "type" : "string"
+    }, {
+      "name" : "wind_direction",
+      "type" : "string"
+    } ]
+  }
