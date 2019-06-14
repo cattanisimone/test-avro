@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47012fe2-b849-4dc4-9b13-37eefd48929b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../reader_java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reader_java/.idea/reader_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reader_java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/reader-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/src/main/java/com/test/avro/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/src/main/java/it/cattanisimone/test/avro/ReaderJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/target/classes/com/test/avro/MyClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/target/classes/com/test/avro/MyClass$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/target/classes/com/test/avro/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_java/target/classes/it/cattanisimone/test/avro/ReaderJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reader_python/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../writer_js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../writer_js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/ReaderJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Reader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/ReaderJava.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Appender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/avro/MyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -77,6 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/ReaderJava.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Appender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Writer.java" />
       </list>
     </option>
   </component>
@@ -130,6 +144,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="avro" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reader-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="avro" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +167,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.cattanisimone.test.avro" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -157,15 +184,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Writer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.cattanisimone.test.avro.ReaderJava" />
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.cattanisimone.test.avro.Reader" />
+      <module name="test-avro-java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.cattanisimone.test.avro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.cattanisimone.test.avro.Writer" />
       <module name="test-avro-java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -211,6 +252,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Writer" />
         <item itemvalue="Application.ReaderJava" />
       </list>
     </recent_temporary>
@@ -241,7 +283,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -270,13 +312,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/avro/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -284,10 +319,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/ReaderJava.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Appender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/avro/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/cattanisimone/test/avro/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>

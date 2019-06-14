@@ -3,3 +3,4 @@ avro-python3-1.9.0*
 **/node_modules
 **/targets
 data/sample-avro/*
+data/generated*

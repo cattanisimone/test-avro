@@ -24,7 +24,15 @@ java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . java/src/main/j
 
 ##### Run reader
 - open project with IntelliJ
-- run `ReaderJava.main` function
+- run `Reader.main` function
+
+##### Run writer
+- open project with IntelliJ
+- run `Writer.main` function
+- check output
+```sh
+java -jar avro-tools-1.9.0.jar tojson data/generated-java-writer.avro
+```
 
 ## Python
 Install python library

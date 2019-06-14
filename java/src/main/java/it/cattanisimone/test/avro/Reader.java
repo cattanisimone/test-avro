@@ -7,7 +7,7 @@ import org.apache.avro.specific.SpecificDatumReader;
 
 import java.io.File;
 
-public class ReaderJava {
+public class Reader {
 
     public static void main(String[] args){
         try {
