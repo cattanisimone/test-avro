@@ -33,3 +33,16 @@ sudo python3 setup.py install
 ```sh
 python3 reader_python/main.py
 ```
+
+## JS reader
+
+##### Install dependencies
+```sh
+cd reader_js
+npm install
+```
+
+##### Run reader
+```sh
+node reader_js/index.jsg
+```
