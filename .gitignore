@@ -1,3 +1,4 @@
 avro-tools-1.9.0.jar
 avro-python3-1.9.0*
 **/node_modules
+data/sample-avro/*
