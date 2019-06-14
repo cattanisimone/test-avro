@@ -29,10 +29,12 @@ java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . java/src/main/j
 ##### Run writer
 - open project with IntelliJ
 - run `Writer.main` function
-- check output
-```sh
-java -jar avro-tools-1.9.0.jar tojson data/generated-java-writer.avro
-```
+- check output `java -jar avro-tools-1.9.0.jar tojson data/generated-java-writer.avro`
+
+##### Run appender
+- open project with IntelliJ
+- run `Appender.main` function
+- check output `java -jar avro-tools-1.9.0.jar tojson data/generated-java-appender.avro`
 
 ## Python
 Install python library
