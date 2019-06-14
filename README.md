@@ -1,11 +1,8 @@
 # Avro Test
 
-## CLI converter
+Use `http://avro4s-ui.landoop.com/` for schema generation from JSON files.
 
-##### Generate schema
-```
-http://avro4s-ui.landoop.com/
-```
+## CLI converter
 
 ##### Download tool
 ```sh
@@ -20,7 +17,18 @@ java -jar avro-tools-1.9.0.jar fromjson --schema-file data/schema.avsc ./data/sa
 java -jar avro-tools-1.9.0.jar fromjson --schema-file data/schema.avsc ./data/sample-json/part-00003.json > data/sample-avro/part-0003.avro
 ```
 
-## Readers
+## Java
+```sh
+java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . java/src/main/java
+```
+
+### Java reader
+
+##### Run reader
+- open project with IntelliJ
+- run `ReaderJava.main` function
+
+## Python
 
 ### Python reader
 
@@ -34,29 +42,20 @@ sudo python3 setup.py install
 
 ##### Run reader
 ```sh
-python3 reader_python/main.py
+python3 python/reader.py
 ```
+
+## JS
 
 ### JS reader
 
 ##### Install dependencies
 ```sh
-cd reader_js
+cd js
 npm install
 ```
 
 ##### Run reader
 ```sh
-node reader_js/index.jsg
+node js/reader.jsg
 ```
-
-### Java reader
-
-##### Compile schema
-```sh
-java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . reader_java/src/main/java
-```
-
-##### Run reader
-- open with IntelliJ
-- run main function
