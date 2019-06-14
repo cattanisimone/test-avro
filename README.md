@@ -22,17 +22,12 @@ java -jar avro-tools-1.9.0.jar fromjson --schema-file data/schema.avsc ./data/sa
 java -jar avro-tools-1.9.0.jar compile schema data/schema.avsc . java/src/main/java
 ```
 
-### Java reader
-
 ##### Run reader
 - open project with IntelliJ
 - run `ReaderJava.main` function
 
 ## Python
-
-### Python reader
-
-##### Install python dependency 
+Install python library
 ```sh
 wget http://mirror.nohup.it/apache/avro/avro-1.9.0/py3/avro-python3-1.9.0.tar.gz
 tar -xzf avro-python3-1.9.0.tar.gz
@@ -46,10 +41,7 @@ python3 python/reader.py
 ```
 
 ## JS
-
-### JS reader
-
-##### Install dependencies
+Install node dependencies
 ```sh
 cd js
 npm install
