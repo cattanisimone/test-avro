@@ -6,6 +6,7 @@ import org.apache.avro.io.DatumWriter;
 import org.apache.avro.specific.SpecificDatumWriter;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Random;
 
@@ -25,10 +26,14 @@ public class Appender {
         DatumWriter<MyClass> userDatumWriter = new SpecificDatumWriter<>(MyClass.class);
         DataFileWriter<MyClass> dataFileWriter = new DataFileWriter<>(userDatumWriter);
         MyClass observation = observe();
-        dataFileWriter.appendTo(new File("../data/generated-java-appender.avro"));
+        try{
+            dataFileWriter.appendTo(new File("../data/generated-java-appender.avro"));
+        } catch (FileNotFoundException e){
+            dataFileWriter.create(observation.getSchema(), new File("../data/generated-java-appender.avro"));
+        }
         dataFileWriter.append(observation);
         dataFileWriter.close();
-        System.out.println("sample observed");
+        System.out.println("sample observed " + run);
     }
 
     public static void main(String[] args){
